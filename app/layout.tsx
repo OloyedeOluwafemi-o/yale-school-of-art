@@ -5,12 +5,12 @@ import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Navigation } from "@/components/navigation"
 import { Suspense } from "react"
+import Footer from "@/components/footer"
 import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Yale School of Art",
   description: "A Living Wiki of Creativity - Yale School of Art",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -19,13 +19,16 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
-        <Suspense fallback={<div>Loading...</div>}>
-          <Navigation />
-          <main className="min-h-screen">{children}</main>
-          <Analytics />
-        </Suspense>
+        <div className="flex min-h-screen flex-col">
+          <Suspense fallback={<div>Loading...</div>}>
+            <Navigation />
+            <main className="flex-grow">{children}</main>
+            <Analytics />
+          </Suspense>
+          <Footer />
+        </div>
       </body>
     </html>
   )
