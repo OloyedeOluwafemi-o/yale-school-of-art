@@ -42,13 +42,13 @@ export default function SignupPage() {
     <div className="min-h-screen bg-gray-50 flex">
       {/* Left side - Image */}
       <div className="hidden lg:flex lg:w-1/2 relative">
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end">
         <Image
           src="/art-lecture-hall-with-students.jpg"
           alt="Yale Art Students in Lecture Hall"
           fill
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end">
           <div className="p-8 text-white">
             <h2 className="text-3xl font-bold mb-4">Start Your Artistic Journey</h2>
             <p className="text-lg opacity-90">

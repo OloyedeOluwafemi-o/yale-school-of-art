@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Link from "next/link"
 import Image from "next/image"
+import login from "@/public/login-image.jpg"
 
 export default function LoginPage() {
   const [email, setEmail] = useState("")
@@ -30,13 +31,14 @@ export default function LoginPage() {
     <div className="min-h-screen bg-gray-50 flex">
       {/* Left side - Image */}
       <div className="hidden lg:flex lg:w-1/2 relative">
-        <Image
-          src="/images/login-image.jpg"
-          alt="Yale School of Art Building"
-          fill
-          className="object-cover"
-        />
+        
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end">
+          <Image
+            src="/login-image.jpg"
+            alt="Yale School of Art Building"
+            fill
+            className="object-cover"
+          />
           <div className="p-8 text-white">
             <h2 className="text-3xl font-bold mb-4">Welcome to Yale School of Art</h2>
             <p className="text-lg opacity-90">

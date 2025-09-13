@@ -98,7 +98,7 @@ export default function ProgramsPage() {
             {featuredPrograms.map((program) => (
               <Card key={program.id} className="overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="aspect-video bg-gray-200 relative">
-                  <Image src={program.image || "/placeholder.svg"} alt={program.title} fill className="object-cover" />
+                  <Image src={program.image} alt={program.title} fill className="object-cover" />
                 </div>
                 <CardContent className="p-6">
                   <div className="flex items-center gap-2 mb-3">

@@ -54,7 +54,7 @@ export default function ExhibitionsPage() {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative">
                 <Image
-                  src="/digital-media-exhibition.jpg"
+                  src="/digital-fabrication-workshop.jpg"
                   alt="Digital Futures exhibition"
                   fill
                   className="object-cover"
@@ -162,7 +162,7 @@ export default function ExhibitionsPage() {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative">
                 <Image
-                  src="/faculty-exhibition-preview.jpg"
+                  src="/modern-sculpture-installation.jpg"
                   alt="Faculty showcase preview"
                   fill
                   className="object-cover"
@@ -185,7 +185,7 @@ export default function ExhibitionsPage() {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative">
                 <Image
-                  src="/visiting-artist-exhibition.jpg"
+                  src="/new-gallery-opening.jpg"
                   alt="Visiting artist exhibition preview"
                   fill
                   className="object-cover"
