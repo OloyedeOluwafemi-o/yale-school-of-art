@@ -185,7 +185,7 @@ export default function ExhibitionsPage() {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative">
                 <Image
-                  src="/new-gallery-opening.jpg"
+                  src="/visiting-artist-exhibition.jpg.png"
                   alt="Visiting artist exhibition preview"
                   fill
                   className="object-cover"
@@ -206,7 +206,7 @@ export default function ExhibitionsPage() {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative">
                 <Image
-                  src="/thesis-exhibition-preview.jpg"
+                  src="/thesis-exhibition-preview.jpg.png"
                   alt="Thesis exhibition preview"
                   fill
                   className="object-cover"

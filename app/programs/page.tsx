@@ -18,7 +18,7 @@ export default function ProgramsPage() {
       duration: "2 years",
       description:
         "A rigorous program exploring visual communication, typography, and digital design in contemporary contexts.",
-      image: "/graphic-design-studio.jpg",
+      image: "/graphic-design-studio.jpg.png",
       featured: true,
     },
     {
@@ -28,7 +28,7 @@ export default function ProgramsPage() {
       duration: "2 years",
       description:
         "Traditional and experimental approaches to painting and printmaking with emphasis on individual artistic development.",
-      image: "/painting-studio-workspace.jpg",
+      image: "/painting-studio-workspace.jpg.png",
       featured: true,
     },
     {
@@ -38,7 +38,7 @@ export default function ProgramsPage() {
       duration: "2 years",
       description:
         "Contemporary photography practice including digital media, installation, and conceptual approaches.",
-      image: "/photography-darkroom-studio.jpg",
+      image: "/photography-darkroom-studio.jpg.png",
       featured: false,
     },
     {
@@ -47,7 +47,7 @@ export default function ProgramsPage() {
       level: "graduate",
       duration: "2 years",
       description: "Three-dimensional art practice with access to traditional and digital fabrication facilities.",
-      image: "/sculpture-workshop-space.jpg",
+      image: "/sculpture-workshop-space.jpg.png",
       featured: true,
     },
     {
@@ -57,7 +57,7 @@ export default function ProgramsPage() {
       duration: "4 years",
       description:
         "Comprehensive study of art history from ancient to contemporary periods with critical analysis focus.",
-      image: "/art-history-lecture-hall.jpg",
+      image: "/art-history-lecture-hall.jpg.png",
       featured: false,
     },
     {
@@ -67,7 +67,7 @@ export default function ProgramsPage() {
       duration: "4 years",
       description:
         "Foundation in multiple artistic disciplines with opportunities for specialization and interdisciplinary work.",
-      image: "/undergraduate-studio-space.jpg",
+      image: "/undergraduate-studio-space.jpg.png",
       featured: false,
     },
   ]

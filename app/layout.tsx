@@ -1,11 +1,11 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { GeistSans } from "geist/font/sans"
-import { GeistMono } from "geist/font/mono"
+// import { GeistSans } from "geist/font/sans"
+// import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Navigation } from "@/components/navigation"
 import { Suspense } from "react"
-import Footer from "@/components/footer"
+import FooterWrapper from "@/components/footer-wrapper" // new wrapper
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -20,14 +20,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+      <body>
         <div className="flex min-h-screen flex-col">
           <Suspense fallback={<div>Loading...</div>}>
             <Navigation />
             <main className="flex-grow">{children}</main>
             <Analytics />
           </Suspense>
-          <Footer />
+
+          {/* Footer is now inside a client wrapper */}
+          <FooterWrapper />
         </div>
       </body>
     </html>
