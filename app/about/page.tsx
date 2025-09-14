@@ -159,7 +159,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video bg-gray-200 relative">
-                <Image src="/painting-studio-workspace.jpg" alt="Painting studios" fill className="object-cover" />
+                <Image src="/painting-studio-workspace.jpg.png" alt="Painting studios" fill className="object-cover" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-3">Studio Spaces</h3>
